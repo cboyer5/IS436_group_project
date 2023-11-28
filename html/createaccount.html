@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="/css/createaccount.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+  <script src="/Javascript/createaccount.js"></script>
+  <script src="'/Javascript/suggest.js"></script>
+</head>
+<body>
+  <!--Navigation Bar-->
+  <div class="nav">
+    <a href="/html/createaccount.html">Sign Up</a>
+    <a href="/html/login.html">Login</a>
+  </div>
+  <a href="/html/homepage.html">
+    <img src="/images/clock.svg" alt="Clock logo" class="logo" width="150" height="150">
+  </a>
+  <br><br><br><br><br>
+
+  <!--Main Page-->
+  <div class="main">
+    <h1>Create New Account</h1>
+    <p>Already Registered? <a href="/html/login.html">Login</a></p>
+
+    <!--Starts rows for the 2 columns-->
+    <div class="row">
+      <form id="create-account-form" action="createaccount.php" method="post" class="create-acc-form">
+        <div class="column">
+          <div class="form-acc">
+            <label class="name">
+              Name<br>
+              <input type="text" name="name" placeholder="Jiara Martins" required>
+            </label>
+          </div>
+          <div class="form-acc">
+            <label for="email">
+              Email<br>
+              <input type="text" name="email" id="email" placeholder="hello@reallygreatsite.com">
+            </label>
+            <div id="email-error"></div>
+          </div>
+          <div class="form-acc">
+            <label for="pass">
+              Password<br>
+              <input type="password" name="pass" id="pass" placeholder="******" required>
+            </label>
+            <div id="password-error" class="error-message"></div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="form-acc">
+            <label for="role">
+              Role<br>
+              <select name="role" id="roles">
+                <option value="">Select role:</option>
+                <option value="employee">Employee</option>
+                <option value="individual">Individual</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-acc">
+            <label for="empl-id">
+              Employer Name<br>
+              <input type="text" id="txt1" onkeyup="showHint(this.value)" name ="employ">
+            </label>
+          </div>
+          <div class="form-acc">
+            <label for="empl-id">
+              Employer Suggestions:<br>
+              <span id="txtHint"></span>
+            </label>
+          </div>
+          <div class="form-acc">
+            <input type="submit" value="Sign Up" name="sign-btn" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div

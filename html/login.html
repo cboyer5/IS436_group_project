@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/css/login.css" />
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <div class="nav">
+      <a href="/html/createaccount.html">Sign Up</a>
+      <a href="/html/login.html">Login</a>
+    </div>
+    <a href="/html/homepage.html"
+      ><img src="/images/clock.svg" alt="Clock logo" class="logo"
+    /></a>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!--Main page-->
+    <div class="main">
+      <h1>Login</h1>
+      <p>Not registered? <a href="/html/createaccount.html">Sign up</a></p>
+
+      <form action="login.php" method="post">
+        <div class="form-log">
+          <label for="email">
+            Email
+            <br />
+            <input
+              type="text"
+              name="Email"
+              placeholder="hello@reallygreatsite.com"
+              required
+            />
+          </label>
+        </div>
+        <div class="form-log">
+          <label for="pass">
+            Password
+            <br />
+            <input type="password" name="pass" placeholder="******" required />
+          </label>
+        </div>
+        <p class="fgot-word">
+          <a href="/html/forgotpass.html">Forgot password?</a>
+        </p>
+        <div class="form-log">
+          <input type="submit" value="Login" name="log-btn" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
