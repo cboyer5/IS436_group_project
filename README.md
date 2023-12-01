@@ -24,3 +24,6 @@ This project has been intended for the use on a public facing webpage. It is to 
 ## Help
 For any suggestions for common problems or issues please open an issue on github and we will look into your comments as soon as possible.
 ```
+## Project Roadmap
+[Unicentral-project-plan_is436.pdf](https://github.com/cboyer5/IS436_group_project/files/13532432/Unicentral-project-plan_is436.pdf)
+
