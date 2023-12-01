@@ -18,12 +18,12 @@ To use thus application, create an account with the information requested. Log i
 * Sami Kirmani
 * James Dennison
 
-## License
-This project has been intended for the use on a public facing webpage. It is to be used by university students or individuals looking to utilize some of the time management tools and resources we offer. Source code is available and is open to the public within the repository 
-
+  
 ## Help
 For any suggestions for common problems or issues please open an issue on github and we will look into your comments as soon as possible.
-```
+
+## License
+This project has been intended for the use on a public facing webpage. It is to be used by university students or individuals looking to utilize some of the time management tools and resources we offer. Source code is available and is open to the public within the repository 
 
 
 
